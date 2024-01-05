@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Company Profile</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+
+    <!-- My css-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="home">
+    
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light navbar-dark bg-info fixed-top">
+      <div class="container-fluid">
+        <div class="service-icon">
+          <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+            <path
+              d="M11.415 12.393l1.868-2.289c.425-.544.224-.988-.055-2.165-.205-.871-.044-1.854.572-2.5 1.761-1.844 5.343-5.439 5.343-5.439l.472.37-3.693 4.728.79.617 3.87-4.59.479.373-3.558 4.835.79.618 3.885-4.58.443.347-3.538 4.85.791.617 3.693-4.728.433.338s-2.55 4.36-3.898 6.535c-.479.771-1.425 1.161-2.334 1.167-1.211.007-1.685-.089-2.117.464l-2.281 2.795c2.445 2.962 4.559 5.531 5.573 6.829.771.987.065 2.421-1.198 2.421-.42 0-.853-.171-1.167-.573l-8.36-10.072s-.926.719-1.944 1.518c-3.172-5.184-6.267-11.661-6.267-13.955 0-.128-.034-.924.732-.924.245 0 .493.116.674.344.509.642 5.415 6.513 10.002 12.049m-2.952 3.617l1.953 2.365-4.115 5.055c-.295.378-.736.576-1.182.576-1.198 0-1.991-1.402-1.189-2.428l4.533-5.568z"
+              fill="#030405"
+            />
+          </svg>
+          <span class="text-white"> Seblak <strong>Teh intan</strong></span>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="homepage.html">Beranda </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="keranjang.html">Keranjang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Akhir Navbar-->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center ">
+      <img src="img/ghani12.jpg" alt="Ghani Aliyandi" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4 fw-bold pt-4" style="color: white;">Seblak Teh Intan</h1>
+      <p class="lead fw-bold" style="color: white;">Owner | Seblak</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,256L6.2,229.3C12.3,203,25,149,37,138.7C49.2,128,62,160,74,181.3C86.2,203,98,213,111,186.7C123.1,160,135,96,148,58.7C160,21,172,11,185,26.7C196.9,43,209,85,222,112C233.8,139,246,149,258,133.3C270.8,117,283,75,295,96C307.7,117,320,203,332,229.3C344.6,256,357,224,369,224C381.5,224,394,256,406,250.7C418.5,245,431,203,443,165.3C455.4,128,468,96,480,122.7C492.3,149,505,235,517,272C529.2,309,542,299,554,266.7C566.2,235,578,181,591,149.3C603.1,117,615,107,628,101.3C640,96,652,96,665,112C676.9,128,689,160,702,186.7C713.8,213,726,235,738,208C750.8,181,763,107,775,80C787.7,53,800,75,812,106.7C824.6,139,837,181,849,181.3C861.5,181,874,139,886,133.3C898.5,128,911,160,923,165.3C935.4,171,948,149,960,138.7C972.3,128,985,128,997,144C1009.2,160,1022,192,1034,197.3C1046.2,203,1058,181,1071,165.3C1083.1,149,1095,139,1108,133.3C1120,128,1132,128,1145,117.3C1156.9,107,1169,85,1182,85.3C1193.8,85,1206,107,1218,138.7C1230.8,171,1243,213,1255,208C1267.7,203,1280,149,1292,112C1304.6,75,1317,53,1329,69.3C1341.5,85,1354,139,1366,144C1378.5,149,1391,107,1403,122.7C1415.4,139,1428,213,1434,250.7L1440,288L1440,320L1433.8,320C1427.7,320,1415,320,1403,320C1390.8,320,1378,320,1366,320C1353.8,320,1342,320,1329,320C1316.9,320,1305,320,1292,320C1280,320,1268,320,1255,320C1243.1,320,1231,320,1218,320C1206.2,320,1194,320,1182,320C1169.2,320,1157,320,1145,320C1132.3,320,1120,320,1108,320C1095.4,320,1083,320,1071,320C1058.5,320,1046,320,1034,320C1021.5,320,1009,320,997,320C984.6,320,972,320,960,320C947.7,320,935,320,923,320C910.8,320,898,320,886,320C873.8,320,862,320,849,320C836.9,320,825,320,812,320C800,320,788,320,775,320C763.1,320,751,320,738,320C726.2,320,714,320,702,320C689.2,320,677,320,665,320C652.3,320,640,320,628,320C615.4,320,603,320,591,320C578.5,320,566,320,554,320C541.5,320,529,320,517,320C504.6,320,492,320,480,320C467.7,320,455,320,443,320C430.8,320,418,320,406,320C393.8,320,382,320,369,320C356.9,320,345,320,332,320C320,320,308,320,295,320C283.1,320,271,320,258,320C246.2,320,234,320,222,320C209.2,320,197,320,185,320C172.3,320,160,320,148,320C135.4,320,123,320,111,320C98.5,320,86,320,74,320C61.5,320,49,320,37,320C24.6,320,12,320,6,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Jumbotron -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>About Us</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4">
+            <p>Seblak Teh Intan adalah sebuah kuliner yang menghadirkan makanan fusion (Street Food) dengan konsep prasmanan yang unik. Kami menggabungkan rasa gurih dan pedas dalam perpaduan antara baso aci dan seblak.</p>
+          </div>
+          <div class="col-md-4">
+            <p>Berbagai macam toping disiapkan dimana pembeli pembeli nantinya bisa mengambil sendiri kesukaannya, mulai dari sosis, sayur sawi, mie, aneka kerupuk, aneka bakso dan masih banyak lagi!</p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ff0088" fill-opacity="1" d="M0,160L7.3,133.3C14.5,107,29,53,44,37.3C58.2,21,73,43,87,74.7C101.8,107,116,149,131,165.3C145.5,181,160,171,175,154.7C189.1,139,204,117,218,138.7C232.7,160,247,224,262,256C276.4,288,291,288,305,277.3C320,267,335,245,349,218.7C363.6,192,378,160,393,133.3C407.3,107,422,85,436,112C450.9,139,465,213,480,213.3C494.5,213,509,139,524,128C538.2,117,553,171,567,165.3C581.8,160,596,96,611,74.7C625.5,53,640,75,655,96C669.1,117,684,139,698,128C712.7,117,727,75,742,58.7C756.4,43,771,53,785,96C800,139,815,213,829,250.7C843.6,288,858,288,873,261.3C887.3,235,902,181,916,149.3C930.9,117,945,107,960,133.3C974.5,160,989,224,1004,245.3C1018.2,267,1033,245,1047,208C1061.8,171,1076,117,1091,112C1105.5,107,1120,149,1135,149.3C1149.1,149,1164,107,1178,112C1192.7,117,1207,171,1222,165.3C1236.4,160,1251,96,1265,90.7C1280,85,1295,139,1309,176C1323.6,213,1338,235,1353,213.3C1367.3,192,1382,128,1396,96C1410.9,64,1425,64,1433,64L1440,64L1440,320L1432.7,320C1425.5,320,1411,320,1396,320C1381.8,320,1367,320,1353,320C1338.2,320,1324,320,1309,320C1294.5,320,1280,320,1265,320C1250.9,320,1236,320,1222,320C1207.3,320,1193,320,1178,320C1163.6,320,1149,320,1135,320C1120,320,1105,320,1091,320C1076.4,320,1062,320,1047,320C1032.7,320,1018,320,1004,320C989.1,320,975,320,960,320C945.5,320,931,320,916,320C901.8,320,887,320,873,320C858.2,320,844,320,829,320C814.5,320,800,320,785,320C770.9,320,756,320,742,320C727.3,320,713,320,698,320C683.6,320,669,320,655,320C640,320,625,320,611,320C596.4,320,582,320,567,320C552.7,320,538,320,524,320C509.1,320,495,320,480,320C465.5,320,451,320,436,320C421.8,320,407,320,393,320C378.2,320,364,320,349,320C334.5,320,320,320,305,320C290.9,320,276,320,262,320C247.3,320,233,320,218,320C203.6,320,189,320,175,320C160,320,145,320,131,320C116.4,320,102,320,87,320C72.7,320,58,320,44,320C29.1,320,15,320,7,320L0,320Z"></path></svg>
+    </section>
+    <!-- Akhir About-->
+    
+    <!-- menu -->
+    <section id="menu">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>MENU</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/9.jpg" class="card-img-top" alt="Projects1" />
+              <div class="card-body">
+                <p class="card-text">Ini adalah beberapa toping seblak yang bisa kamu pilih.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/11.jpg" class="card-img-top" alt="Projects2" />
+              <div class="card-body">
+                <p class="card-text">Ini adalah Mie Tulang.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/13.jpg" class="card-img-top" alt="Projects3" />
+              <div class="card-body">
+                <p class="card-text">Ini adalah Mie Seafood.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/8.jpg" class="card-img-top" alt="Projects4" />
+              <div class="card-body">
+                <p class="card-text">Ini adalah seblak.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/12.jpg" class="card-img-top" alt="Projects4" />
+              <div class="card-body">
+                <p class="card-text">Ini adalah Seblak Seafood.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/projects/14.jpg" class="card-img-top" alt="Projects5" />
+              <div class="card-body">
+                <p class="card-text">Tidak hanya makanan, kami juga menyediakan berbagai minuman.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L7.3,133.3C14.5,107,29,53,44,37.3C58.2,21,73,43,87,74.7C101.8,107,116,149,131,165.3C145.5,181,160,171,175,154.7C189.1,139,204,117,218,138.7C232.7,160,247,224,262,256C276.4,288,291,288,305,277.3C320,267,335,245,349,218.7C363.6,192,378,160,393,133.3C407.3,107,422,85,436,112C450.9,139,465,213,480,213.3C494.5,213,509,139,524,128C538.2,117,553,171,567,165.3C581.8,160,596,96,611,74.7C625.5,53,640,75,655,96C669.1,117,684,139,698,128C712.7,117,727,75,742,58.7C756.4,43,771,53,785,96C800,139,815,213,829,250.7C843.6,288,858,288,873,261.3C887.3,235,902,181,916,149.3C930.9,117,945,107,960,133.3C974.5,160,989,224,1004,245.3C1018.2,267,1033,245,1047,208C1061.8,171,1076,117,1091,112C1105.5,107,1120,149,1135,149.3C1149.1,149,1164,107,1178,112C1192.7,117,1207,171,1222,165.3C1236.4,160,1251,96,1265,90.7C1280,85,1295,139,1309,176C1323.6,213,1338,235,1353,213.3C1367.3,192,1382,128,1396,96C1410.9,64,1425,64,1433,64L1440,64L1440,320L1432.7,320C1425.5,320,1411,320,1396,320C1381.8,320,1367,320,1353,320C1338.2,320,1324,320,1309,320C1294.5,320,1280,320,1265,320C1250.9,320,1236,320,1222,320C1207.3,320,1193,320,1178,320C1163.6,320,1149,320,1135,320C1120,320,1105,320,1091,320C1076.4,320,1062,320,1047,320C1032.7,320,1018,320,1004,320C989.1,320,975,320,960,320C945.5,320,931,320,916,320C901.8,320,887,320,873,320C858.2,320,844,320,829,320C814.5,320,800,320,785,320C770.9,320,756,320,742,320C727.3,320,713,320,698,320C683.6,320,669,320,655,320C640,320,625,320,611,320C596.4,320,582,320,567,320C552.7,320,538,320,524,320C509.1,320,495,320,480,320C465.5,320,451,320,436,320C421.8,320,407,320,393,320C378.2,320,364,320,349,320C334.5,320,320,320,305,320C290.9,320,276,320,262,320C247.3,320,233,320,218,320C203.6,320,189,320,175,320C160,320,145,320,131,320C116.4,320,102,320,87,320C72.7,320,58,320,44,320C29.1,320,15,320,7,320L0,320Z">
+      </path>
+    </svg>
+    </section>
+    <!-- Akhir Produk -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container pb-5">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-info">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Contact -->
+
+    <!-- Footer -->
+    <footer class="bg-info p-3 mt-3" >
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+              <path
+                d="M11.415 12.393l1.868-2.289c.425-.544.224-.988-.055-2.165-.205-.871-.044-1.854.572-2.5 1.761-1.844 5.343-5.439 5.343-5.439l.472.37-3.693 4.728.79.617 3.87-4.59.479.373-3.558 4.835.79.618 3.885-4.58.443.347-3.538 4.85.791.617 3.693-4.728.433.338s-2.55 4.36-3.898 6.535c-.479.771-1.425 1.161-2.334 1.167-1.211.007-1.685-.089-2.117.464l-2.281 2.795c2.445 2.962 4.559 5.531 5.573 6.829.771.987.065 2.421-1.198 2.421-.42 0-.853-.171-1.167-.573l-8.36-10.072s-.926.719-1.944 1.518c-3.172-5.184-6.267-11.661-6.267-13.955 0-.128-.034-.924.732-.924.245 0 .493.116.674.344.509.642 5.415 6.513 10.002 12.049m-2.952 3.617l1.953 2.365-4.115 5.055c-.295.378-.736.576-1.182.576-1.198 0-1.991-1.402-1.189-2.428l4.533-5.568z"
+                fill="#030405"
+              />
+            </svg>
+            <span>copyright @2023 | Created and Develope by<a href="https://www.instagram.com/ghanialynd_/" class="text-decoration-none text-dark fw-bold"> Galynd_</a>
+                <a href="https://www.facebook.com/Ghani Aliyandi"></a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/></svg></a>
+                <a href="https://wa.me/6283861243233">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                      d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-5.971 18l.844-3.081c-.52-.902-.794-1.925-.794-2.973.001-3.279 2.668-5.946 5.946-5.946 1.591.001 3.084.62 4.206 1.744 1.123 1.124 1.741 2.618 1.74 4.207-.001 3.279-2.669 5.946-5.946 5.946-.995 0-1.976-.25-2.844-.724l-3.152.827zm3.298-1.903c.838.497 1.638.796 2.696.796 2.724 0 4.943-2.217 4.944-4.942.001-2.731-2.208-4.945-4.94-4.946-2.726 0-4.943 2.217-4.944 4.942 0 1.112.326 1.946.873 2.817l-.499 1.824 1.87-.491zm5.694-2.732c-.037-.062-.136-.099-.285-.174-.149-.074-.879-.434-1.015-.483-.136-.05-.235-.074-.334.074-.099.149-.384.483-.47.583-.087.099-.173.112-.322.037-.149-.074-.627-.231-1.195-.737-.442-.394-.74-.881-.827-1.029-.087-.149-.009-.229.065-.303l.223-.26.149-.248c.05-.099.025-.186-.012-.26l-.458-1.103c-.121-.29-.243-.25-.334-.255l-.286-.007c-.099 0-.26.037-.396.186s-.52.508-.52 1.24c0 .731.532 1.438.607 1.537.074.099 1.048 1.6 2.538 2.243.354.153.631.245.847.313.356.113.68.097.936.059.285-.043.879-.359 1.003-.706.123-.348.123-.645.086-.707z"/>
+                    </svg>
+                  </a>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Akhir Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
